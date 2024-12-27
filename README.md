@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Java_Basics
 Java is an object-oriented, multipurpose programming language that is platform-neutral. Regardless of the underlying hardware and operating system, Java programs can execute on any device that has the Java Virtual Machine (JVM) installed. Java is a tried-and-true method for developing and testing applications. 
 
@@ -32,3 +33,7 @@ Many automation frameworks, including Selenium, are built on the foundation of J
  10. Collections
  11. Exception Handling
 
+=======
+# Web_Automation_Selenium
+I'm thrilled to present my most recent browser testing automation script! This project shows how to use Selenium WebDriver in Java to run a browser, check page titles, and more.
+>>>>>>> e656f4816b77ec0c01eb24ad37afa08b93228a94
