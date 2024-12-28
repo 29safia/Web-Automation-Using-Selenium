@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="555df52a-4376-4af8-95fe-f1c1f7f3ec52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../browserHandling/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../browserHandling/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../browserHandling/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../headless-browser-commands/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../headless-browser-commands/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../headless-browser-commands/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../headless-browser-commands/src/main/java/com/batch/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testNG/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testNG/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testNG/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testNG/src/main/java/com/batch/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/batch/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/batch/Browser_Handling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/batch/Headless_Browser_Commands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/batch/TestNG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +16,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2qqGFaWiEknGXAO1hs7ZM8B5MPf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735382591486</updated>
       <workItem from="1735382593434" duration="69000" />
+      <workItem from="1735383759510" duration="10000" />
     </task>
     <servers />
   </component>
