@@ -8,7 +8,7 @@ import org.testng.annotations.AfterSuite; // Import TestNG annotation to define 
 import org.testng.annotations.BeforeSuite; // Import TestNG annotation to define a method that runs before all tests
 import org.testng.annotations.Test; // Import TestNG annotation to define test methods
 
- // This class demonstrates using Selenium WebDriver in headless mode to perform browser automation tasks.
+// This class demonstrates using Selenium WebDriver in headless mode to perform browser automation tasks.
 
 public class Headless_Browser_Commands {
 
@@ -51,7 +51,7 @@ public class Headless_Browser_Commands {
         System.out.println("Current URL: " + driver.getCurrentUrl());
     }
 
-     // This method closes the browser after the test suite execution is complete.
+    // This method closes the browser after the test suite execution is complete.
     @AfterSuite
     public void closeChromeBrowser() {
         // Close the browser window

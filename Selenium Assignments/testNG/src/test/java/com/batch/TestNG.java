@@ -4,7 +4,7 @@ import org.testng.annotations.*; // Import TestNG annotations
 //This class demonstrates the use of various TestNG annotations to define the sequence of test execution.
 public class TestNG {
 
-//This method is executed after the entire suite ends.
+    //This method is executed after the entire suite ends.
     @AfterSuite
     public void afterSuite(){
         System.out.println("After Suite");

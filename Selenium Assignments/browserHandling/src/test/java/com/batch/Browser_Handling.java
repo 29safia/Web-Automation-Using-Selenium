@@ -17,7 +17,7 @@ public class Browser_Handling {
     WebDriver driver;
 
     @BeforeSuite
-     //This method initializes the Chrome browser and maximizes the browser window.
+    //This method initializes the Chrome browser and maximizes the browser window.
 
     public void startChromeBrowser() {
 
@@ -27,7 +27,7 @@ public class Browser_Handling {
     }
 
     @Test
-     // This method navigates to a specific URL and waits for a few seconds.
+    // This method navigates to a specific URL and waits for a few seconds.
 
     public void openURL() throws InterruptedException {
 
@@ -36,7 +36,7 @@ public class Browser_Handling {
     }
 
     @AfterSuite
-     // This method closes the Chrome browser.
+    // This method closes the Chrome browser.
 
     public void closeChromeBrowser() {
 
