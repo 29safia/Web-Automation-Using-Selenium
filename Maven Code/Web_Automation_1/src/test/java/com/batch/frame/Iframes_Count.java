@@ -8,6 +8,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class Iframes_Count {
 
     WebDriver driver;
@@ -15,31 +17,22 @@ public class Iframes_Count {
     @BeforeSuite
     public void startChromeBrowser() {
         WebDriverManager.chromedriver().setup();
-        this.driver = new ChromeDriver();
-        this.driver.manage().window().maximize();
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
     }
 
     @Test
     public void openURL() throws InterruptedException {
-        this.driver.get("https://www.tutorialspoint.com/selenium/practice/frames.php");
-        Thread.sleep(5000);
+        driver.get("https://www.tutorialspoint.com/selenium/practice/frames.php");
+        List<WebElement> iframes = driver.findElements(By.tagName("h1"));
+        System.out.println(iframes.size());
 
-        driver.switchTo().frame("Iframe 1");
 
-
-       // WebElement element = driver.findElement(By.xpath("//a[title='\back to Selenium Tutorial']"));
-        //Actions action = new Actions(driver);
-        //action.moveToElement(element).perform();
-       // Thread.sleep(5000);
-
-        WebElement element = driver.findElement(By.name("external-link"));
-        element.click();
-        Thread.sleep(5000);
 
     }
 
     @AfterSuite
     public void closeChromeBrowser() {
-        this.driver.close();
+        driver.close();
     }
 }

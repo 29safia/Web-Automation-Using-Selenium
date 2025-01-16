@@ -34,6 +34,8 @@ public class Frames_By_Id {
        // Thread.sleep(5000);
 
         WebElement element = driver.findElement(By.className("external-link"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).build().perform();
         element.click();
         Thread.sleep(5000);
 
