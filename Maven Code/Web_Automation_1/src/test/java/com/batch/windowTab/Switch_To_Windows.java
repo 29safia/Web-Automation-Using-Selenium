@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 
-public class Switch_To_Tabs {
+public class Switch_To_Windows {
 
     WebDriver driver;
 @BeforeSuite
@@ -28,8 +28,8 @@ public class Switch_To_Tabs {
     }
 
     @Test(priority = 1)
-    public void switchingTabs() throws InterruptedException {
-    //first way of switchinf tabs
+    public void switchingWindows() throws InterruptedException {
+    //first way of switching window
 
     //String parentTab = driver.getWindowHandle();
 
@@ -44,22 +44,23 @@ public class Switch_To_Tabs {
      //driver.switchTo().window(childTab);
      //Thread.sleep(5000);
 
-        //2nd way of switching tabs
+        //2nd way of switching window
 
-        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
-        tabs.add(driver.getWindowHandle());
+        ArrayList<String> windows = new ArrayList<>(driver.getWindowHandles());
+        windows.add(driver.getWindowHandle());
 
-        driver.switchTo().newWindow(WindowType.TAB);
-        tabs.add(driver.getWindowHandle());
+        driver.switchTo().newWindow(WindowType.WINDOW);
+        windows.add(driver.getWindowHandle());
         driver.navigate().to("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");
         Thread.sleep(5000);
 
-        driver.switchTo().window(tabs.get(0));
+        driver.switchTo().window(windows.get(0));
         Thread.sleep(5000);
-        driver.switchTo().window(tabs.get(1));
+        driver.switchTo().window(windows.get(1));
         Thread.sleep(5000);
-        driver.switchTo().window(tabs.get(2));
+        driver.switchTo().window(windows.get(2));
         Thread.sleep(5000);
+
     }
 
 @AfterSuite
